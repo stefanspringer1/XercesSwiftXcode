@@ -31,7 +31,7 @@ Given the path to an XML file as the argument, it prints the element names for e
 The goal is just to use Xerces as a parser in a SAX-like manner, not using any DOM built by Xerces. Of course, to make this binding to Xerces-C++ usable in practice, some more work would be necessary:
 
 - Make the binding more complete.
-- Make the C++ API of the binding more appropriate (currently it just a textual argument-passing API n the C++ level, which stems from a simple C++ SAX parsing example).
+- Make the C++ API of the binding more appropriate (currently it just a textual argument-passing API on the C++ level, which stems from a simple C++ SAX parsing example).
 - Maybe avoid having all those include files from Xerces somehow?
 - Maybe include the whole Xerces source code and let Xerces be built as part of the project?
 - Make a separate package with just the statemant of the SAX interface (class `XMLParseConsumer` in the above code) to be able to easily switch parsers in a project (e.g. be able to switch form Xerces to libxml2 or the way around). 
