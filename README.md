@@ -1,4 +1,4 @@
-# XercesSwiftXcode: Xerces binding for Swift (experimental)
+# XercesSwiftXcode: Xerces binding for Swift as Xcode project (experimental)
 
 This is an experimental project in the form of an Xcode project that uses the [Xerces-C++ XML parser](https://xerces.apache.org/xerces-c/) as an XML parser. Why Xerces? Xerces is an important parser for XML, e.g. Java comes with a Java version of it, and libxml2 does not fully support W3C schema for validation, but Xerces does.
 
