@@ -2,7 +2,7 @@
 
 This is an experimental project in the form of an Xcode project that uses the [Xerces-C++ XML parser](https://xerces.apache.org/xerces-c/) as an XML parser. Why Xerces? Xerces is an important parser for XML, e.g. Java comes with a Java version of it, and libxml2 does not fully support W3C schema for validation, but Xerces does.
 
-The project includes a (very incomplete) binding to Xerces in form of a SAX-like interface. As the C++ binding to Swift is not ready yet for production, it uses Objective-C as an intermediate for the binding. Xerces-C++ is included in compiled form as a dynamic library for macOS (Intel). The following `main.swift` is included in the project that succesfully executes:
+The project includes a (very incomplete) binding to Xerces in form of a SAX-like interface. As the C++ binding to Swift is not ready yet for production, it uses Objective-C as an intermediate for the binding. Xerces-C++ is included here in compiled form as a dynamic library for macOS (Intel); I you do not want to use this binary, please see my repository [XercesBuild](https://github.com/stefanspringer1/XercesBuild) for build instructions for Xerces-C++ or go directly to the [Xerces-C++ XML parser website](https://xerces.apache.org/xerces-c/). The following `main.swift` is included in the project that succesfully executes:
 
 ```swift
 import Foundation
