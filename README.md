@@ -36,4 +36,8 @@ The goal is just to use Xerces as a parser in a SAX-like manner including valida
 - Maybe include the whole Xerces source code and let Xerces be built as part of the project?
 - Make a separate package with just the statemant of the SAX interface (class `XMLParseConsumer` in the above code) to be able to easily switch parsers in a project (e.g. be able to switch form Xerces to libxml2 or the way around). 
 
-But **the first next step** should be to make a project for the **Swift Package Manager** from it. For this, the following repository exists, which is a Swift package, but not runnable yet: [XercesSwiftPM](https://github.com/stefanspringer1/XercesSwiftPM).
+But **the first next step** should be to make a project for the **Swift Package Manager** from it. For this, the following repository exists, which is a Swift package, but not runnable yet: [XercesSwift](https://github.com/stefanspringer1/XercesSwift).
+
+---
+
+Legal notice: Usage of any of the included material is to your own risk. The Xerces-C++ source is from [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) and is used under the Apache 2 license.
