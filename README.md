@@ -28,7 +28,7 @@ else {
 
 Given the path to an XML file as the argument, it prints the element names for each element it encounters while parsing.
 
-(Note that the inclusion of the C++ header files from Xerces-C++ is better solved in the repository [XercesSwift](https://github.com/stefanspringer1/XercesSwift). Furthermore, note that the C++ sources from Xerces-C++ need first to be configurated for some platform before the header files can be used.)
+(Note that the inclusion of the C++ header files from Xerces-C++ is better solved in the repository [XercesSwift](https://github.com/stefanspringer1/XercesSwift).)
 
 The goal is just to use Xerces as a parser in a SAX-like manner including validation during parsing (according to a DTD or a W3C schema, less Relax NG for which libxml2 would be a better choice), not using any DOM built by Xerces. Of course, to make this binding to Xerces-C++ usable in practice, some more work would be necessary:
 
